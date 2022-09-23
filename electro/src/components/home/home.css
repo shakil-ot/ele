@@ -1,0 +1,34 @@
+.home-login-div{
+    width: 100%;
+    height: 100vh;
+    background: #b5ac95 url(../../images/iconbg.jpg);
+    background-position-y: -130px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 12;
+    position: relative;
+    /* margin-top: 70px; */
+    display: flex;
+    justify-content: space-between;
+}
+.form-div{
+    padding: 30px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px; 
+    background-color: rgba(255, 255, 255, 0.226);
+    border-radius: 5px;
+}
+.login-form .login-data-input{
+    margin-bottom: 20px;
+}

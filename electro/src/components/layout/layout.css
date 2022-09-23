@@ -1,0 +1,134 @@
+.main-nav-div{
+    z-index: 9999;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgb(36,0,0);
+background: radial-gradient(circle, rgba(36,0,0,1) 0%, rgba(14,14,14,1) 100%);
+    
+}
+.main-nav{
+    height: 70px;
+}
+
+.search-box{
+    position: relative;
+}
+.search-input{
+    position: relative;
+    opacity: 0;
+    padding: 5px;
+    pointer-events: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+.shipping-add{
+    margin-left: 10px;
+}
+.searchinput-divs{
+        display: flex;
+        align-items: center;
+}
+.search-input input{
+    padding: 5px;
+    border: none;
+    border-radius:5px 0  0 5px;
+    font-size: 14px;
+    height: 35px;
+}
+.search-input input:focus{
+    outline: none;
+}
+.search-upper-text {
+    position: absolute;
+    top: 6px;
+    text-transform: capitalize;
+    border: 1px solid gray;
+    padding: 5px;
+    left: 40%;
+    cursor: pointer;
+}
+.showinput{
+    opacity: 1;
+    transition: 0.3s ease;
+    pointer-events: all;
+}
+.op-zero{
+    opacity: 0;
+    transition: 0.3s ease;
+    pointer-events: none;
+}
+.searchbtn {
+    background: #dcebfa;
+    padding: 5px;
+    border-radius: 0 5px 5px 0;
+    height: 37px;
+}
+.top-nav-right-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.top-nav-icons{
+    font-size: 2rem !important;
+    margin-left: 15px;
+    color: rgb(222, 239, 253);
+}
+
+/* footer  */
+
+.footer{
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(6,0,0,1) 62%, rgba(59,0,0,1) 95%);
+    color: white;
+}
+.footer-content{
+    padding: 30px 0;
+}
+.footer-top-list h3{
+    text-transform: capitalize;
+}
+.copywrite{
+    padding: 20px;
+    background: rgb(36,0,0);
+    background: radial-gradient(circle, rgba(36,0,0,1) 0%, rgba(14,14,14,1) 100%);
+}
+.social-icons{
+    margin-right: 15px;
+}
+.zindex-10{
+    z-index: 10;
+}
+.zindex-12{
+    z-index: 12;
+}
+.zindex-11{
+    z-index: 11;
+    position: sticky;
+}
+.notification-btn{
+    background-color: transparent;
+    border: none;
+    width: max-content;
+}
+.notification-list {
+    width: 40%;
+    height: max-content;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    z-index: 13;
+    color: black;
+}
+.notification-area-div{
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    background-color: white;
+    box-shadow: 0px 6px 14px #00000047;
+    border-radius: 7px;
+}
